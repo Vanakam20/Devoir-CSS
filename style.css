@@ -204,6 +204,7 @@ a:link {
     padding: 10px;
     grid-area: Y1;
     
+    
   }
   .mainbloc2{
     display: block;
@@ -214,7 +215,9 @@ a:link {
     padding: 10px;
     grid-area: Y2;
     
-    
+  }
+  .mainbloc1 a {
+    flex-wrap: nowrap;
   }
   .mainbloc3{
     display: block;
