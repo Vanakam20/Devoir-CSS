@@ -67,6 +67,7 @@ nav ul li ul {
   position: absolute;
   top: 100%;
   padding-top: 16px 0;
+  box-sizing: border-box;
   background-color: #eef3f7;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -77,7 +78,8 @@ nav ul li:hover > ul {
 
 nav ul li ul li {
   font-size: 14px;
-  padding: 5px 30px;
+  padding: 5px 10px;
+  margin-left: 0%;
   background-color: #eef3f7;
   text-align: left;
   white-space: nowrap;
@@ -117,8 +119,8 @@ a:link {
     "X1 X2";
 	  flex-wrap: wrap;
     vertical-align: middle;
-    grid-gap: 0.5%;
-    padding: 40px ;
+    grid-gap: 0.9%;
+    padding: 35px ;
   }
   main{
     clear :right;
@@ -356,6 +358,7 @@ a:link {
   margin-bottom: 0px;
   display: grid;
   grid-template-columns:6% 18% 18% 18% 18%;
+  grid-gap: 2%;
   width: 100%;
  }
 
