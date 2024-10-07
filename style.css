@@ -221,6 +221,7 @@ a:link {
   }
   .mainbloc1 a {
     flex-wrap: nowrap;
+    font-size: 14px;
   }
   .mainbloc3{
     display: block;
@@ -231,6 +232,12 @@ a:link {
     padding: 10px;
     grid-area: Y3;
 
+  }
+  .mainbloc2 a{
+    font-size: 14px;
+  }
+  .mainbloc3 a{
+    font-size: 14px;
   }
 
   .mainbloc a:link { 
